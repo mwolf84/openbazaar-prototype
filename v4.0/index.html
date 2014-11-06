@@ -1,0 +1,823 @@
+<html>
+  <head>
+    <title>OpenBazaar</title>
+    <link rel="shortcut icon" href="favicon.ico?v=6" />
+    <link href="assets/css/ui-kit.css" rel="stylesheet">
+    <script src="assets/javascript/jquery-2.1.1.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>   
+  </head>
+  <body>
+
+    <div class="section-information position-fixed visilibty-hidden">
+        <div class="section-support visibility-hidden">
+          <div class="close-listing position-absolute position-right-0 type-size-30px cursor-pointer type-color-959595"><img src="assets/images/icon-close.png" style="width: 26px;" /></div>
+          <div class="container">
+            <h1 class="position-margin-top-40px">Donate to OpenBazaar</h1>
+          </div>
+        </div>
+        <div class="section-become-notary visibility-hidden">
+          <div class="notary-navigation position-height-100 position-margin-right-40px">
+            <div class="position-margin-left-10px">
+              <ul>
+                <li class="active" data-tab="notary">Notary</li>
+                <li data-tab="arbiter">Arbiter</li>
+              </ul>
+            </div>
+            <div class="close-becoming-notary position-absolute position-right-0 type-size-30px cursor-pointer position-margin-top-10px position-margin-right-2px type-color-959595"><img src="assets/images/icon-close.png" style="width: 24px;" /></div>       
+          </div>
+          <div class="container">
+            <h1 class="position-margin-top-40px">Become a notary</h1>
+            <div class="position-margin-top-20px position-padding-20px background-ffffff position-width-65 border-solid-eaeaea type-color-959595 type-size-14px type-line-height-18px">
+              Lorem ipsum dolor sit amet, mel erat conclusionemque at. Quo civibus volumus an, agam libris populo cu quo, vel oratio tacimates assueverit et. Modus voluptua pertinacia no eos, quo rebum oblique concludaturque no. Harum iracundia vel cu. His cu sint nostrud qualisque, rebum senserit adolescens ut vel. Modo commodo inimicus pri id.<br />
+              <br />
+              Vix ut vivendum accommodare, usu et inani postulant, bonorum voluptaria et vis. Eu soluta verear vim, duo an tamquam maluisset. In pri malis dicat. An eros quas repudiandae sit, no his quot molestie. Debet graeco propriae sea cu, at postea interpretaris sit.<br />
+              <br />
+              Et bonorum dolorem singulis vel. Timeam vituperata liberavisse nam in, eu alii exerci mei. Cum esse malis at. Vivendum euripidis sea ne. Labitur expetenda scriptorem pro cu, sit ex case graecis eleifend. Pro in probo audiam.
+            </div>
+            <label for="become-a-notary"><input type="checkbox" id="become-a-notary" class="position-margin-top-20px" /> I want to notarize transactions</label>
+            <label for="become-a-arbiter" class="visibility-hidden"><input type="checkbox" id="become-a-arbiter" class="position-margin-top-20px" /> I want to be a arbiter</label>
+            <button class="button-primary update-notary-setting position-margin-top-10px">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-listing-details position-fixed visibility-hidden">
+      <div class="container">
+      <div class="close-listing position-absolute position-right-0 type-size-30px cursor-pointer type-color-959595 position-margin-top-20px position-margin-right-2px"><img src="assets/images/icon-close.png" style="width: 24px;" /></div>
+      <div class="position-float-left position-margin-top-60px">
+        <div class="section-listing-details-photo cursor-pointer" style="background: url(assets/images/iphone.jpg); background-size: 100% auto; height: 380px; width: 380px; margin-right: 20px"></div>
+        <div class="additional-photos position-margin-top-20px">
+          <div class="section-listing-details-thumbnail position-float-left position-margin-right-15px position-width-64px position-height-64px cursor-pointer" style="background: url(http://lorempixel.com/400/400/abstract/6/)"></div>
+          <div class="section-listing-details-thumbnail position-float-left position-margin-right-15px position-width-64px position-height-64px cursor-pointer" style="background: url(http://lorempixel.com/400/400/abstract/7/)"></div>
+          <div class="section-listing-details-thumbnail position-float-left position-width-64px position-height-64px cursor-pointer" style="background: url(http://lorempixel.com/400/400/abstract/8/)"></div>
+        </div>
+      </div>
+      <div class="position-float-left position-margin-top-60px">
+        <div class="position-width-100">
+          <div class="position-inline-block">
+            <h1>Apple iPhone 6+ in Black</h1>
+            <p class="position-margin-top-5px type-color-959595"><span class="type-weight-medium">By:</span> <a href="">e25cbe980574b81d1e647f84f09e15ce6c89fb9e</a></p>
+            <div class="position-margin-top-20px position-margin-bottom-20px position-padding-20px background-ffffff border-solid-eaeaea" style="width: 450px;">
+              <table class="position-float-left">
+                <tr>
+                  <td class="position-height-28px position-width-100px">Price:</td>
+                  <td class="position-height-28px">&#3647;1.20 ($542.33)</td>
+                </tr>
+                <tr>
+                  <td class="position-height-28px">Shipping:</td>
+                  <td class="position-height-28px">&#3647;0.10 ($22.43)</td>
+                </tr>
+                <tr>
+                  <td class="position-height-28px">Condition:</td>
+                  <td class="position-height-28px">Brand new</td>
+                </tr>
+                <tr>
+                  <td class="position-height-28px">Location:</td>
+                  <td class="position-height-28px">California, United States</td>
+                </tr>
+              </table>
+              <div class="position-float-right">
+                <div class="position-float-left">
+                  <label for="lisiting-quantity">Qty</label>
+                  <select id="listing-quantity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                </div>
+                <button class="listing-buy button-primary position-margin-left-8px position-float-left">Buy</button>
+              </div>
+              <div class="position-clear-both"></div> 
+            </div>
+            <ul class="listing-navigation background-f7f7f7 position-margin-bottom-20px">
+              <li class="show-description active">Description</li>
+              <li class="show-reviews">Reviews <span class="badge">3</span></li>
+            </ul>
+            <p class="listing-description position-margin-top-5px type-color-222222" style="width: 450px;">
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+              This is the best iPhone 6+ that you will ever see! It's is brand new, in the original box and is better than ever. The black exterior is extra clean and always shines! Don't miss your chance to own the greatest iPhone ever!<br /><br />
+            </p>
+            <div class="listing-reviews visibility-hidden position-margin-top-5px" style="width: 450px;">
+              <div class="position-margin-top-20px">
+                <span>October 27th, 2014</span><br />
+                <p class=" type-color-222222">Super thin. The phone feels great in the hand thanks in part to the rounded edges. Weight is not too light and not too heavy and evenly balanced so that you can hold the phone from the top or bottom without losing control.</p>        
+              </div>
+              <div class="position-margin-top-20px">
+                <span>October 15th, 2014</span><br />
+                <p class="type-color-222222">Which iPhone 6 should you buy? That depends on your needs. The iPhone 6+ has bigger screen, better battery life, and better camera (optical image stabilization). But it also comes in a bigger form factor which might be too large for many. It is worth noting that iPhone 6+ is bigger than the LG G3 (iPhone 6+ is thinner), which has the same screen size (5.5 inches) and I think LG G3 is just about the biggest phone that will fit into my pocket. To me, the iPhone 6+ is too big.</p>
+              </div> 
+              <div class="position-margin-top-20px">
+                <span>October 3rd, 2014</span><br />
+                <p class="type-color-222222">I bought the Iphone 6 from tmobile, just FYI this is UNLOCKED.... i just use my contract gsm card from Cable & Wireless company in PANAMA and this works perfect..... i do not have to do anything else. hope this helps!</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-clear-both"></div>
+      </div>
+    </div>
+
+    <div class="modal-overlay visibility-hidden">
+      <div class="close-overlay position-absolute position-right-15px position-top-20px cursor-pointer"><img src="assets/images/icon-close-white.png" style="width: 24px;" /></div> 
+      <div class="zoom-image poistion-width-100 position-height-100">
+        <div></div>
+      </div>
+
+      <div class="purchase-item">
+        <div class="modal-container">
+          <div class="modal-payment-method">
+            <div class="modal-header">
+              <div class="modal-title position-width-100 position-middle position-padding-top-15px">Payment Type</div>
+            </div>
+            <div class="modal-body">
+              <div class="position-middle position-width-500px position-padding-top-30px">
+                <div class="position-float-left position-width-230px position-margin-right-40px type-align-center">
+                  <span class="type-color-222222 type-size-15px type-weight-light">Direct</span>
+                  <label for="payment-type-direct">
+                    <div class="choice position-margin-top-6px position-margin-bottom-15px">
+                      <img src="assets/images/direct.png" style="width: 230px;" />
+                    </div>
+                  </label>
+                  <div class="position-clear-none">
+                    <input type="radio" name="payment-type" class="position-float-left position-clear-none position-margin-right-8px" id="payment-type-direct" />
+                    <label for="payment-type-direct" class="type-color-222222 position-float-left position-clear-none type-size-12px type-line-height-15px position-width-200px type-align-left">Send bitcoins directly from your wallet to the seller's wallet.</label>
+                  </div>
+                </div>
+                <div class="position-float-left position-width-230px type-align-center">
+                  <span class="type-color-222222 type-size-15px type-weight-light">Escrow</span>
+                  <label for="payment-type-escrow">
+                    <div class="choice position-margin-top-6px position-margin-bottom-15px">
+                      <img src="assets/images/indirect.png" style="width: 230px;" />
+                    </div>
+                  </label>
+                  <div class="position-clear-none">
+                    <input type="radio" name="payment-type" id="payment-type-escrow" class="position-float-left position-clear-none position-margin-right-8px" />
+                    <label for="payment-type-escrow" class="type-color-222222 position-float-left position-clear-none type-size-12px type-line-height-15px position-width-200px type-align-left ">Send bitcoins to a escrow who releases the funds to the seller.</label>
+                  </div>
+                </div>
+                <div class="position-clear-both"></div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="button-primary select-payment-method position-float-right position-margin-right-5px position-margin-top-6px ">Continue</button>
+            </div>
+          </div>
+          
+          <div class="modal-add-new-address visibility-hidden">
+            <div class="modal-header">
+              <div class="back-a-step position-absolute position-left-15px position-top-15px cursor-pointer"><img src="assets/images/icon-back.png" style="width: 8px;" /></div>
+              <div class="modal-title position-width-100 position-middle position-padding-top-15px">Ship to</div>
+            </div>
+            <div class="modal-body">
+              <div class="position-margin-top-20px position-width-440px position-middle">
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-name">Full name</label>
+                  <input type="text" id="add-new-address-name" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-address">Address</label>
+                  <input type="text" id="add-new-address-address" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-unit">Apt/Unit #</label>
+                  <input type="text" class="half" id="add-new-address-unit" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-city">City</label>
+                  <input type="text" id="add-new-address-city" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-state">State</label>
+                  <input type="text" id="add-new-address-state" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-postal-code">Postal code</label>
+                  <input type="text" class="half" id="add-new-address-postal-code" />
+                </div>
+                <div class="position-margin-bottom-20px">
+                  <label for="add-new-address-country">Country</label>
+                  <select>
+                    <option value=""></option>
+                    <option value="United States">United States</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="button-primary position-float-right position-margin-right-5px position-margin-top-6px ">Continue</button>
+            </div>
+          </div>
+
+          <div class="modal-direct visibility-hidden">
+            <div class="modal-header">
+              <div class="back-a-step position-absolute position-left-15px position-top-15px cursor-pointer"><img src="assets/images/icon-back.png" style="width: 8px;" /></div>
+              <div class="modal-title position-width-100 position-middle position-padding-top-15px">Send Payment</div>
+            </div>
+            <div class="modal-body">
+              <div class="position-margin-top-20px position-margin-left-20px">
+                <div class="position-margin-top-20px">
+                  <div class="position-float-left position-width-47 position-margin-right-10px">
+                    <p>
+                      Apple iPhone 6+<br />
+                      Brand new<br />
+                      Ships from: California, USA<br />                   
+                    </p>
+                  </div>
+                  <p class="position-float-left position-width-47">
+                    Joe Smith<br />
+                    7322 N Belmont Ave<br /> 
+                    Chicago, IL 60654<br />
+                  </p>
+                  <div class="position-clear-both"></div>
+                </div>
+
+                <div class="position-margin-top-30px border-top-eaeaea position-padding-top-20px">
+                  <div class="position-float-left">
+                    <img src="assets/images/qr.png" />
+                  </div>
+                  <div class="position-float-left position-width-440px position-margin-left-10px position-padding-top-10px">
+                    <div class="position-margin-bottom-8px type-color-222222 type-size-20px">Send <span class="type-medium type-color-222222 type-size-20px">1.26626928 BTC</span> to</div>
+                    <input type="text" value="16uniUFpbhrAxAWMZ9qEkcT9Wf34ETB4Tt" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="button-disabled position-float-right position-margin-right-5px position-margin-top-6px">Pending payment...</button>
+            </div>
+          </div>
+
+          <div class="modal-escrow visibility-hidden">
+            <div class="modal-header">
+              <div class="back-a-step position-absolute position-left-15px position-top-15px cursor-pointer"><img src="assets/images/icon-back.png" style="width: 8px;" /></div>
+              <div class="modal-title position-width-100 position-middle position-padding-top-15px">Select Escrow</div>
+            </div>
+            <div class="modal-body">
+              <div class="position-margin-top-20px position-margin-left-20px">
+                <label><input type="radio" name="escrow-select" checked /> Joe Smith</label>
+                <label><input type="radio" name="escrow-select" /> Mike Johnson</label>
+                <label><input type="radio" name="escrow-select" /> Jonah Thompson</label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="button-primary position-float-right position-margin-right-5px position-margin-top-6px ">Continue</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="header position-width-100">
+      <ul class="window-controls">
+        <li class="window-close" title="Close"></li>
+        <li class="window-minimize" title="Minimize"></li>
+        <li class="window-maximize" title="Maximize"></li>
+      </ul>
+      <div class="navigation-controls position-float-left">
+        <ul>
+          <li><img src="assets/images/icon-back.png" class="navigation-back" title="Back" /></li>
+          <li><img src="assets/images/icon-forward.png" class="navigation-forward" title="Forward" /></li>
+        </ul>
+      </div>
+      <ul class="navigation position-float-left">
+        <li class="active nav-buy" data-tab="buy">Buy</li>
+        <li data-tab="sell" class="nav-sell">Sell</li>
+        <li data-tab="cases" class="nav-cases visibility-hidden">Cases</li>
+      </ul>
+      <div class="header-title type-align-center position-absolute" style="left: 50%; top: 10px; margin-left: -39px; font-size: 13px; cursor: default;">OpenBazaar</div>
+      <div>
+        <img src="assets/images/icon-gear.png" class="settings position-float-right cursor-pointer position-margin-right-10px position-margin-top-8px" style="height: 20px" />
+        <input type="text" placeholder="Search" class="search input-search-nav position-float-right position-margin-right-10px" />
+      </div>
+      <div class="navigation-with-search visibility-hidden">
+        <img src="assets/images/icon-large.png" class="position-float-left cursor-pointer" style="height: 50px" />
+        <input type="text" class="search input-search position-float-left position-margin-left-20px position-width-600px position-margin-top-10px" placeholder="Search for a product or store" />
+      </div>
+      <div class="clear-both"></div>
+    </div>
+    <div style="position: fixed; height: 100%; width: 100%;">
+    <div class="body position-float-left">
+        <div class="section-buy position-text-align-center position-margin-top-100px">
+          <img src="assets/images/icon-large.png" style="height: 100px" />
+          <div class=""><input type="text" class="search input-search position-width-600px position-margin-top-25px" placeholder="Search for a product or store" /></div>
+          <div class="position-margin-top-45px">
+            <a href="" class="show-notary-overlay position-margin-right-20px">Become a notary or arbiter</a>
+            <a href="" class="show-support-overlay">Support this project</a>
+          </div>
+        </div>
+
+        <div class="section-cases visibility-hidden">
+          <div class="container">
+            <h1 class="position-margin-top-40px position-margin-bottom-10px">Your cases</h1>
+            <p>You don't have any cases yet.</p>
+            <table class="cases-list visibility-hidden position-width-100 background-f7f7f7 position-margin-top-10px">
+              <thead>
+                <tr>
+                  <th class="type-medium position-height-24px">Case #</th>
+                  <th class="type-medium position-height-24px">Date</th>
+                  <th class="type-medium position-height-24px">Buyer</th>
+                  <th class="type-medium position-height-24px">Seller</th>
+                  <th class="type-medium position-height-24px"></th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+
+        <div class="section-sell visibility-hidden">
+          <div class="store-page visibility-hidden">
+            <div class="sell-navigation position-height-100 position-margin-right-40px">
+              <ul class="position-float-left position-margin-left-20px">
+                <li class="active" data-tab="store">Listings</li>
+                <li data-tab="orders">Orders</li>
+                <li data-tab="settings">Settings</li>
+              </ul>
+              <button class="button-primary add-listing position-float-right position-margin-right-5px position-margin-top-6px">Add listing</button>
+            </div>
+
+            <div class="sell-listings container position-padding-top-40px">
+              <h1 class="position-margin-bottom-10px">Listings</h1>
+              <p>You store doesn't have any listings yet.</p>
+              <div class="listings-grid"></div>
+            </div>
+
+            <div class="sell-orders container position-padding-top-40px visibility-hidden">
+              <h1 class="position-margin-bottom-10px">Orders</h1>
+              <p>Your store hasn't received any orders yet.</p>
+              <table class="orders-list visibility-hidden position-width-100 background-f7f7f7 position-margin-top-10px">
+                <thead>
+                  <tr>
+                    <th class="type-medium position-height-24px">Order #</th>
+                    <th class="type-medium position-height-24px">Date</th>
+                    <th class="type-medium position-height-24px">Listing</th>
+                    <!-- <th class="type-medium position-height-24px">Buyer</th> -->
+                    <th class="type-medium position-height-24px"></th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+
+            <div class="sell-store-deatils container position-padding-top-40px visibility-hidden">
+              <h1 class="position-margin-bottom-10px">Store details</h1>
+              <div class="form-fields">
+                <div>
+                  <label for="store-name">Name</label>
+                  <input type="text" id="store-name" />
+                </div>
+                <div class="position-margin-top-20px">
+                  <label for="store-handle">Handle</label>
+                  <input type="text" id="store-handle" />
+                </div>
+                <div class="position-margin-top-20px">
+                  <label for="store-description">Description</label>
+                  <textarea id="store-description" rows="5"></textarea>
+                </div>
+                <div class="position-margin-top-20px">
+                  <label for="store-accessability">Accessibility</label>
+                  <select id="store-accessability">
+                    <option></option>
+                    <option>Open to the public </option>
+                    <option>Private access only</option>
+                  </select>
+                </div>
+              </div>
+              <h1 class="position-margin-bottom-10px position-margin-top-40px">Reputation pledge</h1>
+              <div class="form-fields">
+                <div>
+                  <label for="pledge-amount">Pledge amount</label>
+                  <input type="text" class="position-width-125px" id="pledge-amount" />
+                </div>
+                <div class="position-margin-top-20px">
+                  <label for="proof-of-burn-address">Proof-of-burn address</label>
+                  <input type="text" id="proof-of-burn-address" value="1MdtpMbEQiJUnkJpt2rWHjPVXyuYFfE2EA" />
+                </div>
+              </div>
+              <h1 class="position-margin-bottom-10px position-margin-top-40px">Password protection</h1>
+              <div class="form-fields">
+                <div>
+                  <label for="store-password">Password</label>
+                  <input type="text" id="store-password" />
+                </div>
+                <div class="position-margin-top-20px">
+                  <label for="store-password-confirm">Confirm password</label>
+                  <input type="text" id="store-password-confirm" />
+                </div>
+              </div>
+              <button class="button-primary position-margin-top-20px position-margin-bottom-40px">Save</button>
+              <div class="position-clear-both position-margin-bottom-100px"></div>
+            </div>
+          </div>
+
+          <div class="store-disclaimer container position-padding-top-40px">
+            <h1>Please read before proceeding</h1>
+            <div class="position-margin-top-20px position-padding-20px background-ffffff position-width-65 border-solid-eaeaea">
+              <ul class="position-margin-left-20px" style="list-style-type: square;">
+                <li class="position-margin-bottom-10px type-color-959595 type-size-14px type-line-height-18px">
+                  OpenBazaar is not yet anonymous. Your IP is tied to your listsing, purchases, and notarizations. Malicious parties could use this information against you; protecting your privacy is your own responsibility.
+                </li>
+                <li class="position-margin-bottom-10px type-color-959595 type-size-14px type-line-height-18px">
+                  Transactions may fail for technical reasons, and you can lose your bitcoins. In early beta we recommend smaller transactions and only using the bitcoin testnet. The OpenBazaar dev team is not responsible for any lost Bitcoin or product issues.
+                </li>
+                <li class="position-margin-bottom-10px type-color-959595 type-size-14px type-line-height-18px">
+                  The software functionality will change over time. This means that you may lose your product listings or settings when we roll out new releases.
+                </li>
+                <li class="position-margin-bottom-10px type-color-959595 type-size-14px type-line-height-18px">
+                  Proof-of-burn address format will change, and reputation pledges will be lost. Don't pledge too much on your stores yet!
+                </li>
+                <li class="type-color-959595 type-size-14px type-line-height-18px">
+                  There will be bugs. Submit a bug report in the <a href="http://forum.openbazaar.org">forums</a> or on Reddit, and please be patient.
+                </li>
+              </ul>
+            </div>
+            <button class="approve-disclaimer button-primary position-margin-top-20px">I understand</button>
+          </div>
+
+          <div class="store-setup container visibility-hidden position-padding-top-40px">
+            <h1 class="position-margin-bottom-10px">Set up your store</h1>
+            <div>
+              <label for="store-setup-name">Store name</label>
+              <input type="text" id="store-setup-name" />
+            </div>
+            <div class="position-margin-top-20px">
+              <label for="store-setup-handle">Handle</label>
+              <input type="text" id="store-setup-handle" />
+            </div>
+            <div class="position-margin-top-20px">
+              <label for="store-setup-description">Description</label>
+              <textarea id="store-setup-description" rows="5" placeholder="Optional"></textarea>
+            </div>
+            <div class="position-margin-top-20px">
+              <label for="store-setup-accessability">Accessibility</label>
+              <select id="store-setup-accessability">
+                <option></option>
+                <option>Open to the public </option>
+                <option>Private access only</option>
+              </select>
+            </div>
+            <button class="create-store button-primary position-margin-top-20px">Create</button>
+          </div>
+        </div>
+
+        <div class="section-search-results container visibility-hidden position-margin-bottom-40px">
+          <div class="position-margin-bottom-40px">
+            <div class="row">
+              <div class="position-width-32 position-inline-block position-margin-right-20px position-margin-top-40px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/1/)">
+                    <div class="flag-listing visibility-hidden position-absolute position-right-0">Fsdfsadfsadf</div>
+                  </div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block position-margin-right-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/2/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/3/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="position-width-32 position-inline-block position-margin-right-20px position-margin-top-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/4/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block position-margin-right-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/5/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/6/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="position-width-32 position-inline-block position-margin-right-20px position-margin-top-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/7/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block position-margin-right-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/8/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/9/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="position-width-32 position-inline-block position-margin-right-20px position-margin-top-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/10/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block position-margin-right-20px">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/1/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-width-32 position-inline-block">
+                <div class="search-result-listing">
+                  <div class="picture" style="background: url(http://lorempixel.com/400/400/abstract/2/)"></div>
+                  <div class="details">
+                    <div class="position-float-left">
+                      <span class="type-color-222222 type-size-15px">Apple iPhone 6+ in Black</span><br />
+                      <span class="type-color-959595">By: <a href="">e25cbe980574b81d1e64...</a></span>
+                    </div>
+                    <div class="position-float-right position-padding-top-10px">
+                      <span class="type-color-959595 type-size-16px">&#3647;1.20</span>
+                    </div>
+                    <div class="position-clear-both"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="position-clear-bottom"></div>
+        </div>
+
+        <div class="section-show-order-details position-fixed visibility-hidden">
+          <div class="close-show-order-details position-absolute position-right-0 type-size-30px cursor-pointer position-margin-top-10px position-margin-right-2px type-color-959595"><img src="assets/images/icon-close.png" style="width: 24px;" /></div> 
+          <div class="container position-margin-top-40px">
+            <h1 class="position-margin-bottom-20px">Order #<span class="order-number"></span></h1>
+            <p>Order details coming soon(ish) ;p</p>
+          </div>       
+        </div>
+
+        <div class="section-show-case-details position-fixed visibility-hidden">
+          <div class="close-show-case-details position-absolute position-right-0 type-size-30px cursor-pointer position-margin-top-10px position-margin-right-2px type-color-959595"><img src="assets/images/icon-close.png" style="width: 24px;" /></div> 
+          <div class="container position-margin-top-40px">
+            <h1 class="position-margin-bottom-20px">Case #<span class="case-number"></span></h1>
+            <p>Case details coming soon(ish) ;p</p>
+          </div>       
+        </div>
+
+        <div class="section-add-listing position-fixed visibility-hidden">
+          <div class="close-add-listing position-absolute position-right-0 type-size-30px cursor-pointer position-margin-top-10px position-margin-right-2px type-color-959595"><img src="assets/images/icon-close.png" style="width: 24px;" /></div>
+          <div class="container position-margin-top-40px">
+            <h1 class="position-margin-bottom-20px">Add listing</h1>
+            <div class="form-fields">
+              <div>
+                <label for="add-listing-title">Listing title</label>
+                <input type="text" id="add-listing-title" />
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-description">Description</label>
+                <textarea id="add-listing-description" rows="5"></textarea>
+              </div> 
+              <div class="position-margin-top-20px">
+                <label for="add-listing-keywords">Keywords</label>
+                <input type="text" id="add-listing-keywords" placeholder="Comma separated keywords">
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-price">Price (&#3647;)</label>
+                <input type="text" id="add-listing-price" class="position-width-130px" />
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-shipping">Shipping (&#3647;)</label>
+                <input type="text" id="add-listing-shipping" class="position-width-130px" />
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-quantity">Quantity</label>
+                <input type="number" id="add-listing-quantity" class="position-width-130px" value="1" />
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-condition">Condition</label>
+                <select id="add-listing-condition">
+                  <option></option>
+                  <option>New</option>
+                  <option>Refurbished</option>
+                  <option>Used - great condition</option>
+                  <option>Used - good condition</option>
+                  <option>Used - poor condition</option>
+                  <option>Used - does not function</option>
+                </select>
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="add-listing-image">Image</label>
+                <input type="file" id="add-listing-image" accept="image/*">
+              </div>
+              
+              <button class="button-primary add-listing-create position-margin-top-20px">Create</button>
+              <div class="position-clear-both position-margin-bottom-100px"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-settings position-fixed visibility-hidden">
+          <div class="settings-navigation position-height-100 position-margin-right-40px">
+            <ul class="position-margin-left-10px">
+              <li class="active" data-tab="keys">Keys</li>
+              <li data-tab="communication">Communication</li>
+              <li data-tab="arbiter">Arbiter</li>
+              <li data-tab="notary">Notary</li>
+              <li data-tab="advanced">Advanced</li>
+              <li data-tab="backup">Backup</li>
+            </ul>
+            <div class="close-settings position-absolute position-right-0 type-size-30px cursor-pointer position-margin-top-10px position-margin-right-2px type-color-959595"><img src="assets/images/icon-close.png" style="width: 24px;" /></div>
+          </div>
+
+          <div class="settings-keys container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Keys</h1>
+            <div class="form-fields">
+              <div>
+                <label for="settings-keys-public-key">Bitcoin public key</label>
+                <p class="type-color-222222">04d2a2bfa5c833958f17b1f7d540f72202840c3c3f1be7d873711a30ec274e2081509565ad6e001bfe881c624352ba40dff78faedf5e1b635f786e34b4e14f1075</p>
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="settings-keys-private-key">Bitcoin private key</label>
+                <p class="type-color-222222">27db5cb46f9e83984331734c0fecbf352db5a23323767fe4f71090c6fc9ddd84</p>
+              </div>
+              <div class="position-margin-top-20px">
+                <label for="settings-keys-private-key">PGP public key</label>
+                <textarea rows="10">-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+mQENBFQQQYwBCADkqMaFe4Vbh1kZm+GI6eVVr5N9iVdFh0T+JZzEoG8+j5Os5FH3
+HaIfqwr/3LmicDJErwvk7gmrh7oivMmHGAUWT6lgwr5gTXc4lYhk21Q9iebIqk4T
+PS81lozvBHx6FGTKPMC10icBUdOkbVnrkT84Xhv5CSot/7txu3OHE//aQ9Sl06wB
+CrrgRYbsMjmGB5nswRa48nd3UmReQdBALbTHaxcA5KWSgyvYqwAVSnXMNxtfrKTR
+pqz1BEIbw7uDBaewQTn4wFsCWBoU92X35Dn0Wj+r0eEaUOpfHafnegA3a7126CiQ
+sQqOcWmfebhgCCxebd5bjHOaockXzG13aPxBABEBAAG0PkF1dG9nZW5lcmF0ZWQg
+S2V5IChBdXRvZ2VuZXJhdGVkIGJ5IE9wZW4gQmF6YWFyKSA8Z2Z5QGdmeS5jb20+
+iQE4BBMBAgAiBQJUEEGMAhsvBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDm
+A4Pm20KQe9W7CADjuwMSmGsw0iZHQSws/Y5Xxedo7h14x9lbnldmweObLNbjeExS
+Cmhp3NCZVXi4S/qt2wvLmhT3s/Jb/Fbfx19Szd+lSyEHTN5RPjHi+53rHL9/St9M
+smZfcW3JWmQK+u1iVZEYLzAcuv3UgRPtekQAD/hNpkQTQ3sDl5ApIYF1qr4m1sxl
+GVWzVv3rFJRag7jh7Sv3dkeWAsRR0Arussl871yO4lsjRTvkRWAXE66xz9t+KZGy
+Fj+rHTadhpcif3s39Ltz1tivHlKZ/AxCSH2LiD2Zvh5Yt+/o6SENT3B+At9p8gQL
+G4dW2ERuW0CxQ3/0f55w7zdRp0HUL7AacVyB
+=ZZjT
+-----END PGP PUBLIC KEY BLOCK-----
+</textarea>
+              </div>
+              <button class="button-primary position-margin-top-20px">Save</button>
+            </div>
+          </div>
+          <div class="settings-communications visibility-hidden container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Communication</h1>
+            <p>Settings coming soon</p>
+          </div>
+          <div class="settings-arbiter visibility-hidden container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Trusted Arbiters</h1>
+            <div class="form-fields">
+              <div>
+                <label for="store-name">Arbiter guid</label>
+                <input type="text" id="store-name" />
+              </div>
+            </div>
+          </div>
+          <div class="settings-notary visibility-hidden container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Trusted Notaries</h1> 
+            <p>Settings coming soon</p>
+          </div>
+          <div class="settings-advanced visibility-hidden container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Advanced</h1> 
+            <p>Settings coming soon</p>
+          </div>
+          <div class="settings-backup visibility-hidden container position-padding-top-40px">
+            <h1 class="position-margin-bottom-20px">Backup</h1> 
+            <p>Settings coming soon</p>
+          </div>
+        </div>
+
+    </div>
+    <div class="position-clear-both"></div>
+  </div>
+
+  </body>
+</html>

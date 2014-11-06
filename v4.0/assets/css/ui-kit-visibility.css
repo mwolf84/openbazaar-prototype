@@ -1,0 +1,15 @@
+.visibility-hidden {
+    display: none;
+}
+
+.visibility-show {
+    display: block;
+}
+
+.visibility-inline-block {
+    display: inline-block;
+}
+
+.visibility-mobile-show {
+    display: none;
+}

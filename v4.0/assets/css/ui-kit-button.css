@@ -1,0 +1,33 @@
+.button-primary {
+  background: #025A92;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "avenir-light";
+  font-size: 13px;
+  height: 38px;
+  line-height: 38px;
+  outline: none;
+  padding: 0 22px;
+  text-align: center;
+}
+
+.button-primary:hover {
+  background: #1a3f65;
+}
+
+.button-disabled {
+  background: #F7F7F7;
+  border-radius: 2px;
+  border: solid 1px #EAEAEA;
+  color: #8B8B8B;
+  font-family: "avenir-light";
+  font-size: 13px;
+  padding: 0 22px;
+  text-align: center;
+  outline: none;
+  height: 38px;
+  line-height: 38px;
+  cursor: pointer;
+}

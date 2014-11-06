@@ -1,0 +1,27 @@
+{
+  "name": "OpenBazaar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "node": "^0.0.0"
+  },
+  "window":{
+    "title": "OpenBazaar",
+    "icon": "icon.png",
+    "height": 625,
+    "width": 1000,
+    "position": "center",
+    "toolbar": false,
+    "frame": false,
+    "min_width": 1000,
+    "min_height": 600,
+    "resizable": true
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

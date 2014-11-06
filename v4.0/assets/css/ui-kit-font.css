@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "avenir-light";
+  src: url(../fonts/avenir-light.otf);
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: "avenir-medium";
+  src: url(../fonts/avenir-medium.otf);
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: "avenir-black";
+  src: url(../fonts/avenir-black.otf);
+  -webkit-font-smoothing: antialiased;
+}

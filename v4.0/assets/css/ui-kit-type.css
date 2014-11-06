@@ -1,0 +1,121 @@
+h1 {
+  cursor: default;
+  font-family: "avenir-light";
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1.2;
+}
+
+h2 {
+  cursor: default;
+  font-family: "avenir-light";
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: .2;
+}
+
+a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+p,
+span {
+  color: #959595;
+  cursor: default;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+ul, li {
+  cursor: default;
+}
+
+div {
+  font-size: 14px;
+}
+
+.type-align-left {
+  text-align: left;
+}
+
+.type-align-right {
+  text-align: right;
+}
+
+.type-align-center {
+  text-align: center;
+}
+
+.type-color-959595 {
+  color: #959595;
+}
+
+.type-color-222222 {
+  color: #222222;
+}
+
+.type-weight-light {
+  font-family: "avenir-light";
+}
+
+.type-weight-medium {
+  font-family: "avenir-medium";
+}
+
+.type-letter-spacing-1_2 {
+  letter-spacing: 1.2; 
+}
+
+.type-size-12px {
+  font-size: 12px;
+}
+
+.type-size-14px {
+  font-size: 14px;
+}
+
+.type-size-15px {
+  font-size: 15px;
+}
+
+.type-size-16px {
+  font-size: 16px;
+}
+
+.type-size-20px {
+  font-size: 20px;
+}
+
+.type-size-24px {
+  font-size: 24px;
+}
+
+.type-size-26px {
+  font-size: 26px;
+}
+
+.type-size-30px {
+  font-size: 30px;
+}
+
+.type-line-height-15px {
+  line-height: 15px;
+}
+
+.type-line-height-18px {
+  line-height: 18px;
+}
+
+.type-line-height-24px {
+  line-height: 24px;
+}
+
+.type-bold {
+  font-family: "avenir-black";
+}
+
+.type-medium {
+  font-family: "avenir-medium";
+}
